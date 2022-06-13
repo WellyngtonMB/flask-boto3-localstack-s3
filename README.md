@@ -29,7 +29,7 @@ Caso queira criar o bucket com um nome diferente deve se modificar a linha 33 do
 
 ---
 ### **Variáveis de ambiente do docker-compose.yml**
-`AWS_ACCESS_KEY_ID` e `AWS_SECRET_ACCESS_KEY`  são obrigatórios pois o localstack valida se elas estão sendo passados, mas não valida os valoreis delas.
+`AWS_ACCESS_KEY_ID` e `AWS_SECRET_ACCESS_KEY`  são obrigatórios pois o localstack valida se elas estão sendo passados, mas não valida os valores delas.
 
 Portanto pode se passar qualquer valor para essas duas variáveis que eles serão aceitos. 
 ```
