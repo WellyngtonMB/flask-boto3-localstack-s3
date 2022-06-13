@@ -47,7 +47,7 @@ def upload_file():
             if 'idKey' not in request.form:
                 return jsonify(message='File successfully uploaded'), 201
 
-            # Caso seja enviado do um json junto a requisição, deve ser feito passando através key 'idKey']
+            # Caso seja enviado do um json junto a requisição, deve ser feito passando através key 'idKey'
             # Modifique o código abaixo para realizar as ações necessárias com o json enviado
             teste_json = json.loads(request.form['idKey']) # Carrega o id do usuário
             teste = teste_json['teste'] # Passa o valor teste para a variável teste
